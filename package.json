@@ -4,8 +4,7 @@
     "description": "an example for a capstone project",
     "main": "index.js",
     "scripts": {
-        "start": "node register.js ./index.js",
-        "test": "jest"
+        "start": "node index.js"
     },
     "keywords": [
         "cheerio",
@@ -15,7 +14,6 @@
     "author": "Rich Hildred",
     "license": "MIT",
     "dependencies": {
-        "babel-register": "^6.26.0",
         "cheerio": "^1.0.0-rc.3",
         "node-fetch": "^2.6.0",
         "readline-sync": "^1.4.9"
